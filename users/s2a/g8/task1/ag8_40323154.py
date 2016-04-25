@@ -122,7 +122,7 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
     
     basic11 = cmbr.dup()
     basic11.rotate(90)
-    basic11.translate(20*math.cos(75*deg)+20.5, 20*math.sin(75*deg))
+    basic11.translate(20*math.cos(75*deg)+21.2, 20*math.sin(75*deg))
     
     cmbr.appendPath(basic1)
     cmbr.appendPath(basic2)
